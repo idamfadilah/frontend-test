@@ -1,0 +1,31 @@
+.job-bar-container{
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1rem 0rem;
+    min-height: 4rem;
+    padding: 1rem;
+    border: 0.1rem grey solid;
+}
+.job-bar-container .left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-self: start;
+    width: 50%;
+    height: 100%;
+}
+.job-bar-container .right{
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+}
+.job-bar-title{
+    font-weight: bold;
+}
